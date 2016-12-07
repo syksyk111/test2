@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css3线性渐变</title>
+    <style>
+        *{
+            margin:0;
+            padding:0
+        }
+        .box{
+            width:200px;
+            height:200px;
+            border:1px solid #ccc;
+            margin:30px auto;
+            background:-webkit-linear-gradient(left,#f00 50%,#ff0 70%,#f0f)
+
+            /*50%表示红色的终点，从50%~70%表示黄色的区域，然后从70%~100%为紫色的位置*/
+           /*background:-webkit-linear-gradient(135deg,#fff 16%, #0ae 17%,#0ae 33%, #fff 34%,#fff 66%, #0ae 67%,#0ae 83%, #fff 84%);*/
+           /*background-image: linear-gradient(顺时针角度, 开始颜色 结束位置, 中间颜色1 开始位置,中间颜色1 结束位置, 中间颜色2 开始位置,中间颜色2 结束位置, 中间颜色3 开始位置,中间颜色3 结束位置, 结束颜色 开始位置);*/
+            /*background: -webkit-linear-gradient(top, #ace, #f96 80%, #f96);*/
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+
+</div>
+</body>
+</html>
